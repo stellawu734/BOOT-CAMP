@@ -6,7 +6,7 @@ body{
 }
 .container{
   background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/contemporary_china.png");
-  height: 965px;
+  height: 750px;
   width: 100%;
   border-top:2px solid #d3d3d3;
 
@@ -34,20 +34,21 @@ body{
   position: relative;
   top:18%;
 
+
 }
 footer{
   text-align: center;
   width: 100%;
   background-color:#696969;
-  height: 81px;
+  height: 93px;
   position: relative;
   margin-top:0px;
-  border-top: solid #4aaaa5 5px;
+  border-top: solid #4aaaa5 8px;
   color: white;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 h4{
-  margin-top:20px;
+  margin-top:30px;
   font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 a:hover{
@@ -81,7 +82,7 @@ i{
   margin-right:30px;
   text-decoration:none;
   position:relative;
-  left:60%;
+  left:51%;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   
   
