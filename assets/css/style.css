@@ -4,7 +4,8 @@ body{
   position:relative;
  
 }
-.container{
+.container,
+.container1{
   background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/contemporary_china.png");
   height: 750px;
   width: 100%;
@@ -72,6 +73,7 @@ h1{
   height:50px;
   padding:25px 0 15px 0;
   font-weight:600;
+  width: 200px;
 }
 i{
   position: relative;
@@ -141,6 +143,9 @@ h3{
 #profile{
   margin:20px;
   position:relative;
+ height:200px; 
+ width:200px;
+ float:left;
 }
 #facebook{
   position:relative;
@@ -264,18 +269,376 @@ h3{
 #portfolio1{
   margin-top:10px;
   margin-left:30px;
+  height:140px; width:240px;
 }
 #portfolio2{
   margin-left:40px;
+  height:140px; width:240px;
 }
 #portfolio3{
   margin-top:15px;
   margin-left:35px;
+  height:140px; width:240px;
 }
 #portfolio4{
   margin-left:40px;
+  height:140px; width:240px;
 }
 #portfolio5{
   margin-top:15px;
   margin-left:35px;
+  height:140px; width:240px;
+}
+/*third page*/
+#name{
+  height:25px; 
+  width:550px;
+  }
+#email{
+  height:25px; 
+  width:550px;
+}
+#message{
+  height: 250px; 
+  width: 550px;
+}
+
+/*media queries*/
+/*index*/
+@media screen and (max-width: 980px){
+  body{
+    width:980px;
+    height:100%;
+    }
+  .container{
+        width:980px;
+    height:700px;
+  
+  }
+
+
+  .Aboutme{
+    width:40%;
+    top:1%;
+    height:650px;
+  }
+  #profile{
+    width:350px;
+    height:250px;
+    margin-top:10px;
+  }
+  .square{
+    position:relative;
+    right: 140%;
+    top:8%;
+  }
+  h2{
+    font-size:24px;
+  }
+  .link{
+    left: 60%;
+  }
+  p{
+    font-size:12px;
+  }
+
+/*portfolio*/
+.portfolio{
+  width:30%;
+    top:2%;
+    height:1200px;
+}
+#portfolio1,
+#portfolio2,
+#portfolio3,
+#portfolio4,
+#portfolio5{
+  height:180px; width:240px;
+  margin-bottom:30px;
+ 
+}
+.container1{
+  height:1350px;
+}
+#hangman,
+#RPG-Game,
+#Trivia-Game,
+#RPS,
+#RIW{
+  width:240px;
+  font-size:15px;
+}
+#hangman{
+ top:18%;
+  left:3%;
+}
+#RPG-Game{
+  left:6%;
+  top:37%;
+}
+#Trivia-Game{
+  left:5%;
+  top:56%;
+}
+#RPS{
+  left:7%;
+  top:73%;
+}
+#RIW{
+  left:5%;
+  top:92%;
+}
+/*contact*/
+.contact{
+  width:40%;
+    top:3.5%;
+    height:630px;
+}
+#name,
+#email,
+#message{
+  width:350px;
+}
+
+}
+@media screen and (max-width: 768px){
+ 
+body{
+    width:768px;
+    height:100%;
+  }
+  .container{
+    width:768px;
+    height: 1100px;
+  }
+  .Aboutme{
+    width:80%;
+    top:1%;
+    height:750px;
+    right:6%;
+  }
+  #profile{
+    width:250px;
+    height:250px;
+    margin-top:10px;
+  }
+  .square{
+    position:relative;
+    width:225%;
+    height:180px;
+    top:120%;
+ left:-890px;
+  }
+  h2{
+    font-size:24px;
+  }
+  .link{
+    left: 60%;
+  }
+  p{
+    font-size:15px;
+  }
+  h3{
+    width:90%;
+    text-align:left;
+    margin-bottom:10px;
+    padding-bottom:10px;
+  }
+  .images{
+    width:100%;
+  }
+  #facebook,
+  #github,
+  #linkedin,
+  #resume{
+    margin-right:5px;
+  }
+  /*portfolio*/
+  .container1{
+    height:1100px;
+  }
+  .portfolio{
+    width:80%;
+    top:1%;
+    height:780px;
+    right:6%;
+  }
+  #hangman,
+#RPG-Game,
+#Trivia-Game,
+#RPS,
+#RIW{
+  font-size:20px;
+}
+#hangman{
+ top:28%;
+  left:2%;
+}
+#RPG-Game{
+  left:48%;
+  top:28%;
+}
+#Trivia-Game{
+  left:2.5%;
+  top:56%;
+}
+#RPS{
+  left:2.5%;
+  top:85%;
+}
+#RIW{
+  left:49%;
+  top:56%;
+}
+/*contact*/
+.contact{
+  width:80%;
+    top:1%;
+    height:650px;
+    right:6%;
+}
+#name,
+#email,
+#message{
+  width:550px;
+}
+.square3{
+  top:105%;
+}
+.container3{
+  height:1000px;
+}
+}
+@media screen and (max-width: 640px){
+header{
+  position:static;
+}
+h1{
+
+  width:100%;
+  margin:0;
+  font-size:32px;
+}
+.navbar{
+  width:640px;
+  bottom:0px;
+  text-align:center;
+ padding:10px;
+  margin-top:0px;
+}
+.link{
+  left:5%;
+  font-size:16px;
+  
+}
+#about{
+  margin-right:150px;
+}
+#portfolio{
+  margin-right:150px;
+}
+body{
+    width:640px;
+   height:auto;
+    
+  }
+  .container{
+    width:640px;
+    height: 1300px;
+   
+  }
+   .Aboutme{
+    width:550px;
+  margin-left:10%;
+  height:900px;
+  
+   }
+   h2{
+    font-size:32px;
+   }
+   #profile{
+    width:500px;
+    height:450px;
+  }
+  .square{
+    left:-930px;
+    width:550px;
+    top:150%;
+    
+  }
+  
+  /*portfolio*/
+ 
+  .portfolio{
+    width:550px;
+  margin-left:10%;
+  height:2270px;
+ 
+  }
+  .container1{
+     width:640px;
+    height: 2550px;
+   
+    
+  }
+  .square1{
+    top:335%;
+  }
+  #portfolio1,
+#portfolio2,
+#portfolio3,
+#portfolio4,
+#portfolio5{
+  height:400px; width:500px;
+  margin-bottom:20px;
+ 
+}
+
+#hangman,
+#RPG-Game,
+#Trivia-Game,
+#RPS,
+#RIW{
+  width:500px;
+  font-size:25px;
+  text-align:center;
+}
+#hangman{
+ top:18%;
+  left:2%;
+}
+#RPG-Game{
+  left:4%;
+  top:37%;
+}
+#Trivia-Game{
+  left:3%;
+  top:56%;
+}
+#RPS{
+  left:3.5%;
+  top:75%;
+}
+#RIW{
+  left:3%;
+  top:94%;
+
+}
+/*contact*/
+.contact{
+   width:550px;
+  margin-left:10%;
+  height:700px;
+}
+#name,
+#email,
+#message{
+  width:500px;
+}
+.square3{
+  top:120%;
+}
+.container3{
+  height:1050px;
+}
 }
